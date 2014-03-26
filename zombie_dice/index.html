@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="game.js"></script>
+<link rel="stylesheet" href="game.css" type="text/css" />
+<title>
+Zombie Dice!
+</title>
+</head>
+<body>
+<div id="container">
+	<div id="header">
+		<h2>Zombie Dice!</h2>
+	</div>
+	<div id="info">
+		<div id="player_1_info">
+			<label id="player_1_lbl">Player 1</label><br>
+			<label for="player_1_score">Score: </label><input type="text" id="player_1_score" class="player_score" />
+			<label for="player_1_turns">Turns: </label><input type="text" id="player_1_turns" class="player_score" />
+		</div>
+		<div id="player_2_info">
+			<label id="player_2_lbl">Player 2</label><br>
+			<label for="player_2_score">Score: </label><input type="text" id="player_2_score" class="player_score" />
+			<label for="player_2_turns">Turns: </label><input type="text" id="player_2_turns" class="player_score" />
+		</div>
+	</div>
+	<div id="game_info"></div>
+	<div id="results"></div>
+	<div id="color_div"></div>
+	<div id="alert_div"><div id="alert_text"></div></div>
+	<div id="buttons"><button id="select_dice">Select Dice & Roll!</button><button id="end_turn">End Turn</button></div>
+</div>
+</body>
+</html>

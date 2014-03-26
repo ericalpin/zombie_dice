@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+.g_dice {
+	background-color: green;
+}
+.y_dice {
+	background-color: yellow;
+}
+.r_dice {
+	background-color: red;
+}
+.dice {
+	height: 80px;
+	width: 80px;
+	text-align: center;
+	display:inline-block;
+	margin-right:6px;
+	border: 1px solid black;
+}
+.red_text {
+	color: red;
+}
+.green_text {
+	color: green;
+}
+.player_score {
+	border: none;
+	width: 30px;
+	height:20px;
+	font-size: 12pt;
+	font-family: Tahoma, Arial, Sans-Serif;
+	padding-top: 2px;
+}
+
+#container {
+	width: 40%;
+	margin: 50px auto 0 auto;
+	font-size: 12pt;
+	font-family: Tahoma, Arial, Sans-Serif;
+}
+#header {
+	text-align: center;
+}
+#info {
+	width: 190px;
+	float: right;
+}
+#results {
+	float: left;
+	width: 300px;
+}
+#color_div {
+	float: left;
+	width: 300px;
+	height: 100px;
+	padding-top: 10px;
+	display:block;
+}
+#alert_div {
+	float: right;
+	display: block;
+	margin: 10px 30px 0 0;
+	width: 200px;
+}
+#alert_text {
+	float: right;
+	text-align: right;
+}
+#buttons {
+	margin-top: 10px;
+	display: block;
+	float: left;
+	margin-left: 30px;
+}
+#player_1_info, #player_2_info {
+	display: inline-block;
+	width: 90px;
+}
